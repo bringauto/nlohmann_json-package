@@ -6,7 +6,7 @@ VERSION=v3.9.1
 REPO_PATH=repo
 BUILD_PATH="${REPO_PATH}/_build"
 
-git clone git@github.com:nlohmann/json.git "${REPO_PATH}"
+git clone https://github.com/bringauto/nlohmann_json-package.git "${REPO_PATH}"
 
 mkdir -p "${BUILD_PATH}"
 pushd "${BUILD_PATH}"
